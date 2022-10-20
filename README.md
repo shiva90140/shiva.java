@@ -15,18 +15,19 @@ public class LargestNo
   b = sc.nextInt();  
   System.out.println("Enter the third number:");  
   c = sc.nextInt();  
+  
   if(a>b && a>c)
-  {
-  System.out.println("The largest number is: "+a);  
-  }
+   {
+   System.out.println("The largest number is: "+a);       
+   }
   else if(b>a && b>c)
-  {
-  System.out.println("The largest number is: "+b);  
-  }
+   {
+   System.out.println("The largest number is: "+b);     
+   }
   else
-  {
-  System.out.println("The largest number is: "+c);  
-  }
+   {
+   System.out.println("The largest number is: "+c);     
+   }
 
   }  
 }  
